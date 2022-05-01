@@ -23,6 +23,8 @@
 
         <label for="e.department">Department: </label><br>
         <input type='text' name='e.department' id="e.department" required/><br><br>
+
+        <input type='submit' name='submit' id="submit"/>
     </form>
 </body>
 </html>
