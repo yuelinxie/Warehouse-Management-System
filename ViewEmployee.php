@@ -19,14 +19,14 @@ if ( isset($_POST["eid"] ) )
         die("Connection failed: " . $conn->connect_error );
     }
 
-    $query = "SELECT * FROM EMPLOYEE WHERE eid=" . $_POST["eid"];
+    $query = "SELECT EMPLOYEE.name AS name, birthday, DEPARTMENTS.name AS department_id FROM EMPLOYEE LEFT JOIN DEPARTMENTS ON EMPLOYEE.department_id = DEPARTMENTS.did WHERE eid=" . $_POST["eid"];
     $result = $conn->query( $query );
 
     if ( $result->num_rows > 0 )
     {
         while ( $row = $result->fetch_assoc() )
         {
-            echo "EID: " . $row["eid"] . " | Name: " . $row["name"] . " | Birthday: " . $row["birthday"] . " | SSN: " . $row["ssn"] . " | Department: " . $row["department_id"] . "<br>";
+            echo "Name: " . $row["name"] . " | Birthday: " . $row["birthday"] . " | Department: " . $row["department_id"] . "<br>"; 
         }
     } else {
         echo "No employee found for that employee ID.";
