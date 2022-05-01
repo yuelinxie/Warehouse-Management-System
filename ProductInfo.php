@@ -17,6 +17,8 @@
 
         <label for="aq">Available Quantity: </label><br>
         <input type='text' name='aq' id="aq" required/><br><br>
+
+        <input type='submit' name='submit' id="submit"/>
     </form>
 </body>
 </html>

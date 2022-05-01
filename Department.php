@@ -14,6 +14,8 @@
 
         <label for="d.id">ID: </label><br>
         <input type='text' name='d.id' id="d.id" required/><br><br>
+
+        <input type='submit' name='submit' id="submit"/>
     </form>
 </body>
 </html>

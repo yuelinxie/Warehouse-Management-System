@@ -24,6 +24,8 @@
 
         <label for="cc#">Credit Card Number: </label><br>
         <input type='text' name='cc#' id="cc#" required/><br><br>
+
+        <input type='submit' name='submit' id="submit"/>
     </form>
 </body>
 </html>

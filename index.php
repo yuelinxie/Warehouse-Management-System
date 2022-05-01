@@ -24,6 +24,8 @@
 
         <label for="cc#">Credit Card Number: </label><br>
         <input type='text' name='cc#' id="cc#" required/><br><br>
+
+        <input type='submit' name='submit' id="submit"/>
     </form>
 
     <div><h2>Employee Information</h2></div>
@@ -42,6 +44,8 @@
 
         <label for="e.department">Department: </label><br>
         <input type='text' name='e.department' id="e.department" required/><br><br>
+
+        <input type='submit' name='submit' id="submit"/>
     </form>
 
     <div><h2>Product Information</h2></div>
@@ -54,6 +58,8 @@
 
         <label for="aq">Available Quantity: </label><br>
         <input type='text' name='aq' id="aq" required/><br><br>
+
+        <input type='submit' name='submit' id="submit"/>
     </form>
 
     <div><h2>Department: </h2></div>
@@ -63,6 +69,8 @@
 
         <label for="d.id">ID: </label><br>
         <input type='text' name='d.id' id="d.id" required/><br><br>
+
+        <input type='submit' name='submit' id="submit"/>
     </form>
 
 </body>
