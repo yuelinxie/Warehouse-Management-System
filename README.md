@@ -6,7 +6,7 @@ This project is designed for students to apply their knowledge to real-world app
 - **Task 2: Implementation: PHP + MySQL.**
 
 ## TEST
-XAMPP
+- XAMPP
 
 ## Teammate:
 - Yuelin Xie
